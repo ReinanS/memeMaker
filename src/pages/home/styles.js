@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,13 +26,13 @@ export const Card = styled.div`
 
 export const Templates = styled.div`
     width: 100%;
-    height: 90px;
+    height: 150px;
     background: #eee;
     border-radius: 8px;
     overflow-y: auto;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 10px;
     margin-bottom: 30px;
 
     button {
@@ -41,12 +41,12 @@ export const Templates = styled.div`
         border: 2px solid transparent;
 
         &.selected {
-
+            border-color: #4395D8;
         }
 
         img {
-            width: 53px;
-            height: 53px;
+            width: 9em;
+            height: 9em;
         }
     }
 `;
