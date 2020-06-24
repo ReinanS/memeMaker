@@ -18,7 +18,7 @@
 <a id="about"></a>
 ## About
 
-<strong>MemeMaker</strong> is a web application made with React, consuming an [API](https://www.youtube.com/redirect?event=video_description&v=Yajip86C8sg&redir_token=TUUDr0iZ3Fts2USeNYEGmgPL1_R8MTU5MzExODE2MEAxNTkzMDMxNzYw&q=https%3A%2F%2Fapi.imgflip.com), to create a Memes generator. The construction was based on one of the developer and youtuber classes [Mateus Silva](https://www.youtube.com/channel/UCNckxUYl117w3hfgoj3DbWg), with some changes in the frontend made by me, like accessibility and responsivity.
+<strong>MemeMaker</strong> is a web application made with React, consuming an [API](https://api.imgflip.com/), to create a Memes generator. The construction was based on one of the developer and youtuber classes [Mateus Silva](https://www.youtube.com/channel/UCNckxUYl117w3hfgoj3DbWg), with some changes in the frontend made by me, like accessibility and responsivity.
 
 
 <a id="features"></a>
