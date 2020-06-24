@@ -1,68 +1,84 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src=".github/logo.svg">
+    <br><br>
+</h3>
+  
+<p align="center">
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies-used">Technologies Used</a>
+</p>
 
-## Available Scripts
+<!-- Resultado -->
+<h1 align="center">
+    <img alt="Web" src=".github/video.gif" width="900px">
+</h1>
 
-In the project directory, you can run:
 
-### `npm start`
+<a id="about"></a>
+## About
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<strong>MemeMaker</strong> is a web application made with React, consuming an [API](https://www.youtube.com/redirect?event=video_description&v=Yajip86C8sg&redir_token=TUUDr0iZ3Fts2USeNYEGmgPL1_R8MTU5MzExODE2MEAxNTkzMDMxNzYw&q=https%3A%2F%2Fapi.imgflip.com), to create a Memes generator. The construction was based on one of the developer and youtuber classes [Mateus Silva](https://www.youtube.com/channel/UCNckxUYl117w3hfgoj3DbWg), with some changes in the frontend made by me, like accessibility and responsivity.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+<a id="features"></a>
+## Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Memes creation, from an image gallery.
 
-### `npm run build`
+<a id="technologies-used"></a>
+## Technologies Used
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project was developed using the following technologies:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [React.js](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<a id="how-to-use"></a>
+## How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ### **Pre-requisites**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - It is **necessary** to have the **[Node.js](https://nodejs.org/en/)** installed on the machine
+  - Also, it is **precise** to have a package manager either **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Make a clone:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+  $ git clone https://github.com/ReinanS/memeMaker.git
+```
 
-## Learn More
+2. Running the Application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  # Install as dependencies
+  $ npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  # Launch the application
+  $ npm start
+```
 
-### Code Splitting
+<a id="how-to-contribute"></a>
+## How to Contribute
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Fork this repository,
+- Create a branch with your resource: `git checkout -b my-feature`
+- Commit your changes: `git commit -m 'feat: My new feature' `
+- Push your branch: `git push origin my-feature`
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Who ministered?
 
-### Making a Progressive Web App
+The classes were taught by the instructor [Mateus Silva](https://www.youtube.com/channel/UCNckxUYl117w3hfgoj3DbWg).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This project is under MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h4 align="center">
+    Made by <a href="https://www.linkedin.com/in/reinandesouza/" target="_blank">Reinan de Souza</a>
+</h4>
